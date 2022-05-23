@@ -1,3 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 div {
     display: flex;
+}
+
+body {
+    width: 100%;
+    justify-content: center;
+}
+
+#pageContent {
+    width: 935px;
+    display: flex;
+}
+
+#headbar {
+    width: 100vw;
+    height: 54px;
+    flex: none;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    justify-content: center;
+}
+
+#headbarContent {
+    width: 935px;
+    flex: none;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 146px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoSeparationBar {
+    width: 1px;
+    height: 22px;
+    background: #DBDBDB;
+}
+
+#searchbox {
+    align-items: center;
+}
+
+#searchbar {
+    width: 215px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    text-align: center;
+    justify-self: center;
+}
+
+#menu {
+    width: 148px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
 }
